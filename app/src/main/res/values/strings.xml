@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Smart Kids Learning</string>
+
+    <string name="objective">
+         "SMART KIDS LEARNING" is the best learning app for kids to learn alphabets, numbers, colors, match and more! This app for Kindergarten, pre-school children and toddlers! Kids Pre-school Learning - alphabets, numbers, colors, shapes, animals, flags, fruits, vegetables, \u0026 planets all of these are included here.
+    </string>
+
+    <string name="copyright">
+        Copyright \u00A9 2020 Android Team, BITI, Ltd.
+        \nAll rights reserved under ICT Division.
+    </string>
+
+    <string name="data_analysis">
+        <b>Data Collection and Analysis:</b>
+                \n\n\t\t\tKawsar Ullah
+                \n\t\t\tMd Jahirul Islam
+                \n\t\t\tFarzana Rahman
+                \n\t\t\tEmon Al Mamun
+                \n\t\t\tGazi Fahim Hasan
+                \n\t\t\tNafiz Hasan Antar
+                \n\t\t\tSharmin Akter Pinki
+    </string>
+
+    <string name="ui_ux_graphics">
+        <b>UI/UX and Graphics:</b>
+                \n\n\t\t\tMasum Billah
+                \n\t\t\tMd Sazzat Hossain
+    </string>
+
+    <string name="team_leader">
+        <b>Team Leader:</b>
+            \n\n\t\t\tMd Shohel Rana
+    </string>
+
+    <string name="developer">
+        <b>Developers:</b>
+                \n\n\t\t\tFarzana Rahman
+                \n\t\t\tSharmin Akter Pinki
+                \n\t\t\tEmon Al Mamun
+                \n\t\t\tSagar Chandra Chanda
+                \n\t\t\tBipul Sarkar
+                \n\t\t\tMd Oli Ullah
+                \n\t\t\tGazi Fahim Hasan
+                \n\t\t\tMd Jahirul Islam
+                \n\t\t\tKawsar Ullah
+                \n\t\t\tKazi Rashidul Hasan
+                \n\t\t\tArafa Yasmin
+                \n\t\t\tNafis Ahmed Siddique
+                \n\t\t\tIftika Afrin
+                \n\t\t\tShakhawat Hossain
+                \n\t\t\tPromel Barua
+                \n\t\t\tLeonardo Mridha Joy
+    </string>
+
+    <string name="back_end">
+        <b>Backend:</b>
+                \n\n\t\t\tMd Oli Ullah
+                \n\t\t\tGazi Fahim Hasan
+                \n\t\t\tMd Jahirul Islam
+    </string>
+
+    <string name="voice_artist">
+        <b>Voice Artist:</b>
+                \n\n\t\t\tFariha Ahmad Chowdhury
+                \n\t\t\tMasum Billah Musa
+    </string>
+
+    <string name="testing">
+        <b>Testing and Quality Checking:</b>
+                \n\n\t\t\tMd Shohel Rana
+                \n\t\t\tFarzana Rahman
+                \n\t\t\tKawsar Ullah
+                \n\t\t\tMd Jahirul Islam
+                \n\t\t\tEmon Al Mamun
+                \n\t\t\tSagar Chandra Chanda
+                \n\t\t\tSharmin Akter Pinki
+                \n\t\t\tBipul Sarkar
+                \n\t\t\tGazi Fahim Hasan
+    </string>
+
+    <string name="manager">
+        <b>Project Manager:</b>
+                \n\n\t\t\tNafiz Hasan Antar
+    </string>
+
+    <string name="conducted">___Conducted By___</string>
+</resources>

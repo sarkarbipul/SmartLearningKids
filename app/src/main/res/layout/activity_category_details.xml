@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ParentLayoutStyle"
+    tools:context=".CategoryDetailsActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/lLNumberRange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/HeaderLayoutStyle">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/number_back_btn"
+                style="@style/ImageStyle"
+                android:src="@drawable/ic_arrow_back"
+                app:civ_border_color="@color/border_color2"
+                app:civ_border_width="4dp"
+                android:layout_weight="0.5"/>
+
+            <TextView style="@style/TextStyle" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/number_sound_btn"
+                    style="@style/ImageStyle"
+                    android:src="@drawable/number_sound_button"
+                    app:civ_border_color="@color/border_color2"
+                    app:civ_border_width="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView style="@style/CommonLayoutStyle">
+
+            <LinearLayout
+                android:id="@+id/fragmentContainerLoId"
+                style="@style/CommonLayoutStyle"
+                android:padding="20dp">
+
+                <LinearLayout
+                    style="@style/CommonLayoutStyle"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout style="@style/ButtonLayoutStyle">
+
+                        <Button
+                            android:id="@+id/btnRange1"
+                            style="@style/ButtonStyle"
+                            android:text="0-10" />
+
+                        <Button
+                            android:id="@+id/btnRange2"
+                            style="@style/ButtonStyle"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:text="11-20" />
+
+                        <Button
+                            android:id="@+id/btnRange3"
+                            style="@style/ButtonStyle"
+                            android:text="21-30" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ButtonLayoutStyle">
+
+                        <Button
+                            android:id="@+id/btnRange4"
+                            style="@style/ButtonStyle"
+                            android:text="31-40" />
+
+                        <Button
+                            android:id="@+id/btnRange5"
+                            style="@style/ButtonStyle"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:text="41-50" />
+
+                        <Button
+                            android:id="@+id/btnRange6"
+                            style="@style/ButtonStyle"
+                            android:text="51-60" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/ButtonLayoutStyle">
+
+                        <Button
+                            android:id="@+id/btnRange7"
+                            style="@style/ButtonStyle"
+                            android:text="61-70" />
+
+                        <Button
+                            android:id="@+id/btnRange8"
+                            style="@style/ButtonStyle"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="16dp"
+                            android:text="71-80" />
+
+                        <Button
+                            android:id="@+id/btnRange9"
+                            style="@style/ButtonStyle"
+                            android:text="81-90" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnRange10"
+                        style="@style/ButtonStyle"
+                        android:layout_width="220dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="16dp"
+                        android:text="91-100" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
